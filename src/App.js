@@ -9,8 +9,17 @@ import './App.css';
 class App extends Component {
   
   state = {
-    friends
+    friends: friends,
+    curScore: 0,
+    topScore: 0,
+    unselectedCards: friends
   };
+
+  componentDidMount() {
+
+  }
+
+
 
   removeFriend = id => {
     
@@ -23,8 +32,11 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-      <Navpills />
-        <Title>Friends List</Title>
+      <Navpills
+        curScore={this.state.curScore}
+        topScore={this.state.topScore} 
+        />
+        <Title />
         {this.state.friends.map(friend => (
           <FriendCard
             removeFriend={this.removeFriend}

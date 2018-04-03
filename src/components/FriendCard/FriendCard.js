@@ -8,14 +8,6 @@ const FriendCard = props => (
                 <img alt={props.spaceName} src={props.image} />
             </a>
         </div>
-
-        <div className="content">
-            <ul>
-                <li>
-                    <strong>Name:</strong> {props.spaceName}
-                </li>
-            </ul>
-        </div>
     </div>
 );
 
