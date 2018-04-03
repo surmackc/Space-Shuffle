@@ -4,24 +4,18 @@ import "./FriendCard.css";
 const FriendCard = props => (
     <div className="card">
         <div className="img-container">
-            <img alt={props.name} src={props.image} />
+            <a onClick={() => props.selectSpace(props.spaceName)}>
+                <img alt={props.spaceName} src={props.image} />
+            </a>
         </div>
+
         <div className="content">
             <ul>
                 <li>
-                    <strong>Name:</strong> {props.name}
-                </li>
-                <li>
-                    <strong>Location:</strong> {props.location}
-                </li>
-                <li>
-                    <strong>Occupation:</strong> {props.occupation}
+                    <strong>Name:</strong> {props.spaceName}
                 </li>
             </ul>
         </div>
-        <span onClick={() => props.removeFriend(props.id)} className="remove">
-        x
-        </span>
     </div>
 );
 

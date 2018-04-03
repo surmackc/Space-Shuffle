@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
+import Navpills from "./components/Navpills";
 import friends from "./friends.json";
 import './App.css';
 
@@ -22,6 +23,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
+      <Navpills />
         <Title>Friends List</Title>
         {this.state.friends.map(friend => (
           <FriendCard
