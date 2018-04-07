@@ -4,8 +4,9 @@ import "./Nav.css";
 const Nav = props => (
   <div>
     <ul className="nav nav-pills nav-justified">
-      <li><a href="/">Space Click Game</a></li>
-      <li>Score: <span style={{color: "yellow"}}>{props.curScore}</span> | Top Score: {props.topScore}</li>
+      <li><a href="/">Start</a></li>
+      <li>Score: <span style={{color: "yellow"}}>{props.curScore}</span> | Top Score: <span style={{color: "purple"}}>{props.topScore}</span>
+      </li>
     </ul>
   </div>
 );
