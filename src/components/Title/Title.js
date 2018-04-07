@@ -1,7 +1,7 @@
 import React from "react";
 import "./Title.css";
 
-const Title = props => (
+const Title = () => (
   <div className="titleDiv">
     <h1>Space Click Game</h1>
     <h3>Far out!!</h3>
