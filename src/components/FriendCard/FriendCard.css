@@ -22,9 +22,8 @@
     background:#6CADDC;
   }
   .card > .img-container img {
-    margin-top: 10px;
     width: 100%;
-    height: auto;
+    height: 100%;
   }
   
   

@@ -1,7 +1,7 @@
 import React from "react";
-import "./Navpills.css";
+import "./Nav.css";
 
-const Navpills = props => (
+const Nav = props => (
   <div>
     <ul className="nav nav-pills nav-justified">
       <li><a href="/">Space Click Game</a></li>
@@ -10,4 +10,4 @@ const Navpills = props => (
   </div>
 );
 
-export default Navpills;
+export default Nav;

@@ -1,24 +1,27 @@
 .titleDiv {
-  background-image: url('');
+  background-image: url('/img/space-background.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
   width: 100%;
   min-height: 280px;
   text-align: center;
   vertical-align: center;
-  font-family: 'Holtwood One SC', serif;
+  font-family: 'Chicle', cursive;
   color: #fff;
   text-shadow: 0 0 5px #000;
   margin-bottom: 20px;
   
 }
 
-.titlebox h1 {
+.titleDiv h1 {
   margin-top: 90px;
-  font-size: 3.5em;
+  font-size: 4.0em;
+}
+.titleDiv h3 {
+  font-size: 2.5em;
 }
 
-.titlebox p {
-  font-size: 1.8em;
+.titleDiv p {
+  font-size: 2.0em;
 }
   
