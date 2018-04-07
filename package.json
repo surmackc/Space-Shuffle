@@ -1,7 +1,7 @@
 {
   "name": "clicky-game",
   "version": "0.1.0",
-  "homepage": "https://github.com/surmackc/clicky-game",  "private": true,
+  "homepage": "http://surmackc.github.io/clicky-game",  "private": true,
   "dependencies": {
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
