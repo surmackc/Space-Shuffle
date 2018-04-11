@@ -3,8 +3,8 @@ import "./Title.css";
 
 const Title = () => (
   <div className="titleDiv">
-    <h1>Space Click Game</h1>
-    <h3>Far out!!</h3>
+    <h1>Space Shuffle</h1>
+    <h2>Far out!!</h2>
     <p>Click on an image to earn points but don't click on any more than once!</p>
   </div>
 );
