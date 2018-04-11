@@ -1,7 +1,7 @@
 {
   "name": "clicky-game",
   "version": "0.1.0",
-  "homepage": "https://surmackc.github.io/clicky-game",
+  "homepage": "https://surmackc.github.io/Space-Shuffle",
   "private": false,
   "dependencies": {
     "react": "^16.3.0",
